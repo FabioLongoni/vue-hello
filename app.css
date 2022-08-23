@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(240, 178, 72);
+}
+
 .container {
     text-align: center;
     padding: 3rem 0;
@@ -11,4 +15,12 @@
 
 img {
     max-width: 70%;
+}
+
+.h1-font-size {
+    font-size: 3rem;
+}
+
+.h1-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

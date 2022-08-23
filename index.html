@@ -10,10 +10,10 @@
 </head>
 <body>
     <div id="root" class="container">
-        <h1>
+        <h1 :class="myClass">
             {{ toUpper(title) }} 
         </h1>
-        <img v-bind:src="img" alt="">
+        <img :src="img" alt="">
     </div>
 
 

@@ -4,6 +4,7 @@ const app = new Vue({
     data: {
         title: 'surf-hawai',
         img: 'https://dbdzm869oupei.cloudfront.net/img/sticker/preview/28723.png',
+        myClass: 'h1-font-size h1-font',
     },
     methods: {
         toUpper(text){
